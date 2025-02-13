@@ -1,0 +1,44 @@
+.about-container {
+  background: url('/images/ocean.jpg') no-repeat center center/cover; 
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  max-width: 800px;
+ font-family: 'Times New Roman', Times, serif;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.about-section {
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
