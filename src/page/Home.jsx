@@ -36,7 +36,7 @@ const Home = () => {
     const ticketDetails = { username, from, to, transport };
     localStorage.setItem("ticketDetails", JSON.stringify(ticketDetails));
 
-    toast.done(`Ticket booked for ${username}: ${transport} from ${from} to ${to}`);
+    toast.success(`Ticket booked for ${username}: ${transport} from ${from} to ${to}`);
   };
 
   // Handle Sign Out
