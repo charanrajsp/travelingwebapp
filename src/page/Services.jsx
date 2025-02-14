@@ -1,5 +1,5 @@
 import React from "react";
-import "./services.css";
+import "../styles/services.css";
 
 const Services = () => {
   // Travel Routes Data
